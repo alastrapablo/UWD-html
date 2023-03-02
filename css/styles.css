@@ -11,14 +11,8 @@ hr {
     width: 5%;
 }
 
-h1 {
-    color: #57573d;
-}
-
-h3 {
-    color: #57573d;
-}
-
+h1,
+h3,
 a {
     color: #57573d;
 }
@@ -29,6 +23,6 @@ table {
 
 .foto:hover {
     scale: 1.1;
+    opacity: 70%;
     transition: 0.8s;
-    transition: all 1s ease-out;
 }
