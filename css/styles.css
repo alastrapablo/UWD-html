@@ -26,3 +26,9 @@ a {
 table {
     color: #27271d;
 }
+
+.foto:hover {
+    scale: 1.1;
+    transition: 0.8s;
+    transition: all 1s ease-out;
+}
