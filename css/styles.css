@@ -2,7 +2,7 @@ body {
     background-color: #dddacb;
     font-family: Lucida Console, Lucida Sans Typewriter, monaco, Bitstream Vera Sans Mono, monospace;
     color: #27271d;
-    /* display: inline-block; */
+    display: block;
 }
 
 hr {
@@ -22,14 +22,14 @@ a {
     color: #57573d;
 }
 
-img {
+.top-img {
     border-radius: 100%;
 }
 
 .container-top {
     background-color: rgb(30, 30, 30);
     width: 600px;
-    position: absolute;
+    position: fixed;
     left: 0px;
     color: #dddacb;
     border-radius: 0px 20px 20px 0px;
@@ -42,7 +42,14 @@ img {
     right: 10px;
 }
 
-.foto:hover {
+.container-bodyImg {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    scale: 20%;
+}
+
+.top-img:hover {
     scale: 1.1;
     opacity: 70%;
     transition: 0.8s;
